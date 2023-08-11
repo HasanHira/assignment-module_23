@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ee1bff37df5884cf9e1c46d8de69863",
+    "content-hash": "afd0a768a0bef38828a74f8c22d8bdbe",
     "packages": [
         {
             "name": "brick/math",
@@ -431,69 +431,6 @@
                 }
             ],
             "time": "2023-01-14T14:17:03+00:00"
-        },
-        {
-            "name": "firebase/php-jwt",
-            "version": "v6.8.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/5dbc8959427416b8ee09a100d7a8588c00fb2e26",
-                "reference": "5dbc8959427416b8ee09a100d7a8588c00fb2e26",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^7.4||^8.0"
-            },
-            "require-dev": {
-                "guzzlehttp/guzzle": "^6.5||^7.4",
-                "phpspec/prophecy-phpunit": "^2.0",
-                "phpunit/phpunit": "^9.5",
-                "psr/cache": "^1.0||^2.0",
-                "psr/http-client": "^1.0",
-                "psr/http-factory": "^1.0"
-            },
-            "suggest": {
-                "ext-sodium": "Support EdDSA (Ed25519) signatures",
-                "paragonie/sodium_compat": "Support EdDSA (Ed25519) signatures when libsodium is not present"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Firebase\\JWT\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Neuman Vong",
-                    "email": "neuman+pear@twilio.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Anant Narayanan",
-                    "email": "anant@php.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-            "homepage": "https://github.com/firebase/php-jwt",
-            "keywords": [
-                "jwt",
-                "php"
-            ],
-            "support": {
-                "issues": "https://github.com/firebase/php-jwt/issues",
-                "source": "https://github.com/firebase/php-jwt/tree/v6.8.1"
-            },
-            "time": "2023-07-14T18:33:00+00:00"
         },
         {
             "name": "fruitcake/php-cors",
@@ -1039,16 +976,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.18.0",
+            "version": "v10.17.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "9d41928900f7ecf409627a7d06c0a4dfecff2ea7"
+                "reference": "a82d96fd94069e346eb8037d178e6ccc4daaf3f9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/9d41928900f7ecf409627a7d06c0a4dfecff2ea7",
-                "reference": "9d41928900f7ecf409627a7d06c0a4dfecff2ea7",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/a82d96fd94069e346eb8037d178e6ccc4daaf3f9",
+                "reference": "a82d96fd94069e346eb8037d178e6ccc4daaf3f9",
                 "shasum": ""
             },
             "require": {
@@ -1235,20 +1172,20 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-08-08T14:30:38+00:00"
+            "time": "2023-08-02T14:59:58+00:00"
         },
         {
             "name": "laravel/prompts",
-            "version": "v0.1.4",
+            "version": "v0.1.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/prompts.git",
-                "reference": "1b3ab520a75eddefcda99f49fb551d231769b1fa"
+                "reference": "562c26eb82c85789ef36291112cc27d730d3fed6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/prompts/zipball/1b3ab520a75eddefcda99f49fb551d231769b1fa",
-                "reference": "1b3ab520a75eddefcda99f49fb551d231769b1fa",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/562c26eb82c85789ef36291112cc27d730d3fed6",
+                "reference": "562c26eb82c85789ef36291112cc27d730d3fed6",
                 "shasum": ""
             },
             "require": {
@@ -1281,9 +1218,9 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
-                "source": "https://github.com/laravel/prompts/tree/v0.1.4"
+                "source": "https://github.com/laravel/prompts/tree/v0.1.3"
             },
-            "time": "2023-08-07T13:14:59+00:00"
+            "time": "2023-08-02T19:57:10+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -2076,21 +2013,21 @@
         },
         {
             "name": "nette/schema",
-            "version": "v1.2.4",
+            "version": "v1.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/schema.git",
-                "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab"
+                "reference": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/schema/zipball/c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
-                "reference": "c9ff517a53903b3d4e29ec547fb20feecb05b8ab",
+                "url": "https://api.github.com/repos/nette/schema/zipball/abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
+                "reference": "abbdbb70e0245d5f3bf77874cea1dfb0c930d06f",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^2.5.7 || ^3.1.5 ||  ^4.0",
-                "php": "7.1 - 8.3"
+                "php": ">=7.1 <8.3"
             },
             "require-dev": {
                 "nette/tester": "^2.3 || ^2.4",
@@ -2132,9 +2069,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/schema/issues",
-                "source": "https://github.com/nette/schema/tree/v1.2.4"
+                "source": "https://github.com/nette/schema/tree/v1.2.3"
             },
-            "time": "2023-08-05T18:56:25+00:00"
+            "time": "2022-10-13T01:24:26+00:00"
         },
         {
             "name": "nette/utils",
@@ -5815,17 +5752,79 @@
             "time": "2020-07-09T08:09:16+00:00"
         },
         {
-            "name": "laravel/pint",
-            "version": "v1.10.6",
+            "name": "laravel/breeze",
+            "version": "v1.22.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/laravel/pint.git",
-                "reference": "d1915b6ecc6406c00472c6b9ae75b46aa153bbb2"
+                "url": "https://github.com/laravel/breeze.git",
+                "reference": "9123dde67e57301dc557c4990f7b27df59dd876f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/pint/zipball/d1915b6ecc6406c00472c6b9ae75b46aa153bbb2",
-                "reference": "d1915b6ecc6406c00472c6b9ae75b46aa153bbb2",
+                "url": "https://api.github.com/repos/laravel/breeze/zipball/9123dde67e57301dc557c4990f7b27df59dd876f",
+                "reference": "9123dde67e57301dc557c4990f7b27df59dd876f",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^10.17",
+                "illuminate/filesystem": "^10.17",
+                "illuminate/support": "^10.17",
+                "illuminate/validation": "^10.17",
+                "php": "^8.1.0"
+            },
+            "require-dev": {
+                "orchestra/testbench": "^8.0",
+                "phpstan/phpstan": "^1.10"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Breeze\\BreezeServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Breeze\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Minimal Laravel authentication scaffolding with Blade and Tailwind.",
+            "keywords": [
+                "auth",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/breeze/issues",
+                "source": "https://github.com/laravel/breeze"
+            },
+            "time": "2023-08-02T18:59:04+00:00"
+        },
+        {
+            "name": "laravel/pint",
+            "version": "v1.10.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "a458fb057bfa2f5a09888a8aa349610be807b0c3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/a458fb057bfa2f5a09888a8aa349610be807b0c3",
+                "reference": "a458fb057bfa2f5a09888a8aa349610be807b0c3",
                 "shasum": ""
             },
             "require": {
@@ -5878,20 +5877,20 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
-            "time": "2023-08-08T15:17:16+00:00"
+            "time": "2023-07-14T10:26:01+00:00"
         },
         {
             "name": "laravel/sail",
-            "version": "v1.23.2",
+            "version": "v1.23.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/sail.git",
-                "reference": "f8694d6af5729be72ae96b91e344c5676c89114a"
+                "reference": "62582606f80466aa81fba40b193b289106902853"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/sail/zipball/f8694d6af5729be72ae96b91e344c5676c89114a",
-                "reference": "f8694d6af5729be72ae96b91e344c5676c89114a",
+                "url": "https://api.github.com/repos/laravel/sail/zipball/62582606f80466aa81fba40b193b289106902853",
+                "reference": "62582606f80466aa81fba40b193b289106902853",
                 "shasum": ""
             },
             "require": {
@@ -5943,20 +5942,20 @@
                 "issues": "https://github.com/laravel/sail/issues",
                 "source": "https://github.com/laravel/sail"
             },
-            "time": "2023-08-07T13:01:51+00:00"
+            "time": "2023-06-28T18:31:28+00:00"
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.6",
+            "version": "1.6.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "b8e0bb7d8c604046539c1115994632c74dcb361e"
+                "reference": "68782e943f9ffcbc72bda08aedabe73fecb50041"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/b8e0bb7d8c604046539c1115994632c74dcb361e",
-                "reference": "b8e0bb7d8c604046539c1115994632c74dcb361e",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/68782e943f9ffcbc72bda08aedabe73fecb50041",
+                "reference": "68782e943f9ffcbc72bda08aedabe73fecb50041",
                 "shasum": ""
             },
             "require": {
@@ -6028,7 +6027,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2023-08-09T00:03:52+00:00"
+            "time": "2023-08-06T00:30:34+00:00"
         },
         {
             "name": "myclabs/deep-copy",

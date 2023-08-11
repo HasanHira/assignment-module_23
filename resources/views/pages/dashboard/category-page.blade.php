@@ -1,7 +1,7 @@
-@extends('layouts.panel')
+@extends('layout.sidenav-layout')
 @section('content')
-    @include('components.category.category-list')
-    @include('components.category.category-delete')
-    @include('components.category.category-create')
-    @include('components.category.category-update')
+    @include('components.income.income-list')
+    @include('components.income.income-delete')
+    @include('components.income.income-create')
+    @include('components.income.income-update')
 @endsection

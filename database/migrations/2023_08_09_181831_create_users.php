@@ -15,9 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name', 50);
             $table->string('email', 100)->unique();
-            $table->string('phone', 50);
-            $table->string('password', 50);
-            $table->string('otp', 10);
+            $table->timestamp('email_verified_at')->nullable();
+            $table->string('password', 300);
+            $table->rememberToken();
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent()->useCurrentOnUpdate();
         });
